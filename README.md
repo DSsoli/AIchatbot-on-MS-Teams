@@ -12,7 +12,7 @@ AI-Data-Analyst is an embedded LLM-based AI chatbot deployed on Teams. It provid
   <img src="https://github.com/DSsoli/AIchatbot-on-MS-Teams/blob/main/imgs/23.png?raw=true" width="1000"/>
 </p>
 
-2. Getting data-based insights and strategies from the AI-Data-Analyst
+2. Getting data-driven insights and strategies from the AI-Data-Analyst
 
 <p align="center">
   <img src="https://github.com/DSsoli/AIchatbot-on-MS-Teams/blob/main/imgs/24.png?raw=true" width="1000"/>
