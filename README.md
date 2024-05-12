@@ -2,17 +2,17 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/DSsoli/AIchatbot-on-MS-Teams/blob/main/LICENSE)
 
-AI-Analyst is an embedded LLM-based chatbot deployed on Teams that provides aggregated data summary and creative insights based on the data, together with aggregated visual summaries.
+AI-Data-Analyst is an embedded LLM-based AI chatbot deployed on Teams. It provides aggregated data summarization and creative analytical insights from the given data, as well as aggregated visual summaries.
 
 ## Preview
 
-1. Getting visual summary of the data from the AI-Analyst
+1. Getting aggregated visual summary of the data from the AI-Data-Analyst
 
 <p align="center">
   <img src="https://github.com/DSsoli/AIchatbot-on-MS-Teams/blob/main/imgs/23.png?raw=true" width="1000"/>
 </p>
 
-2. Getting Various Aggregated Data Insights from the AI-Analyst
+2. Getting data-based insights and strategies from the AI-Data-Analyst
 
 <p align="center">
   <img src="https://github.com/DSsoli/AIchatbot-on-MS-Teams/blob/main/imgs/24.png?raw=true" width="1000"/>
@@ -35,7 +35,7 @@ AI-Analyst is an embedded LLM-based chatbot deployed on Teams that provides aggr
   - OpenAI (text-embedding, gpt-3/4)
 
 - Power Automate:
-  - Example flow may look like:
+  - Example flow structured as:
 > embedded conversation flow:
 <p align="center">
   <img src="https://github.com/DSsoli/AIchatbot-on-MS-Teams/blob/main/imgs/20.png?raw=true" width="1000"/>
