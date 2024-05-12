@@ -35,7 +35,7 @@ AI-Data-Analyst is an embedded LLM-based AI chatbot deployed on Teams. It provid
   - OpenAI (text-embedding, gpt-3/4)
 
 - Power Automate:
-  - Example flow structured as:
+  - Example flows structured as:
 > embedded conversation flow:
 <p align="center">
   <img src="https://github.com/DSsoli/AIchatbot-on-MS-Teams/blob/main/imgs/20.png?raw=true" width="1000"/>
