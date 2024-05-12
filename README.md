@@ -4,7 +4,7 @@
 
 AI-Data-Analyst is an embedded LLM-based AI chatbot deployed on Teams. It provides aggregated data summarization and creative analytical insights from the given data, as well as aggregated visual summaries.
 
-## Preview
+## Demonstrations
 
 1. Getting aggregated visual summary of the data from the AI-Data-Analyst
 
