@@ -31,7 +31,7 @@ AI-Data-Analyst is an embedded LLM-based AI chatbot deployed on Teams. It provid
 - Azure: 
   - Resource Group Creation
   - Function App
-  - Storage Accounts /w Containers
+  - Storage Accounts w/ Containers
   - OpenAI (text-embedding, gpt-3/4)
 
 - Power Automate:
