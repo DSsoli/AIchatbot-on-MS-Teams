@@ -18,7 +18,7 @@ limitations under the License.
 import pandas as pd
 import numpy as np
 
-# Define the column names for up to Q10
+
 columns = [
     "Buyer Category",
     "Survey Questions and Answers",
@@ -80,7 +80,7 @@ columns = [
     "Q10_A6: Don't research"
 ]
 
-# Define buyer categories
+
 buyer_categories = [
     "01_Loyal Buyers", 
     "02_First-Time Buyers", 
@@ -89,16 +89,16 @@ buyer_categories = [
     "05_Non-Buyers"
 ]
 
-# Initialize random data generation for artificial responses
+
 np.random.seed(42)
 
-# Function to generate answers and calculate total sums
+
 def generate_answers_and_totals(num_answers):
     answers = np.random.randint(5, 50, num_answers)
     total = np.sum(answers)
     return [total] + answers.tolist()
 
-# Generate data for each buyer category
+
 data = []
 
 for category in buyer_categories:
@@ -116,9 +116,9 @@ for category in buyer_categories:
     row = [category, f"response aggregations for {category}"] + q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9 + q10
     data.append(row)
 
-# Create DataFrame
+
 artificial_dataset = pd.DataFrame(data, columns=columns)
 
-# Save to CSV
+
 output_path = './data/artificial_survey_data.csv'
 artificial_dataset.to_csv(output_path, index=False)
