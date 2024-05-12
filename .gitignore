@@ -1,0 +1,7 @@
+# local/data/*
+# !local/data/.gitkeep
+
+# local/figs/*
+# !local/figs/.gitkeep
+
+unused_imgs/*
